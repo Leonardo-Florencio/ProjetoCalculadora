@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" rel="stylesheet" />
+
+  <title>Desafio - Calculadora</title>
+</head>
+<body>
+  <div class="calculadoraCompleta" id="calculadoraCompleta">
+    <div class="parteDeCimaDaCalculadora" id="parteDeCimaDaCalculadora">
+      <div class="tituloCalculadora" id="tituloCalculadora">
+        <p>calc</p>
+      </div>
+      <div class="menuTema" id="menuTema">
+        <p class="tituloTema" id="tituloTema">TEMA</p>
+        <div class="selecionadorDeTemas" id="selecionadorDeTemas">
+          <div class="temas" id="temas">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="tri-state-toggle">
+            <input class="button" type="radio" name="toggle" id="one" />
+            <input class="button" type="radio" name="toggle" id="two" />
+            <input class="button" type="radio" name="toggle" id="three" />
+          </div>
+        </div> 
+      </div>
+      
+    </div>
+
+    <input type="text" class="visorDaCalculadora" id="visorDaCalculadora" value="0">
+      
+    </form>
+
+    <div class="tecladoDaCalculadora" id="tecladoDaCalculadora">
+      <button type="button" class="botaoNumerico" id="botaoNumerico">7</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">8</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">9</button>
+      <button type="button" class="botaoDEL" id="botaoDEL">DEL</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">4</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">5</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">6</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">+</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">1</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">2</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">3</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">-</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">.</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico">0</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">/</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">x</button>
+      <button type="button" class="botaoReset" id="botaoReset">RESET</button>
+      <button type="button" class="botaoDeResultado" id="botaoDeResultado">=</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="toggleSwitch.js"></script>
+</body>
+</html>
