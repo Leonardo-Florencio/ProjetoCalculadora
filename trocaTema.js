@@ -1,0 +1,1 @@
+const trocaTema = tema => document.documentElement.className = tema;

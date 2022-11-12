@@ -7,15 +7,10 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-body {
-    background: hsl(222, 26%, 31%);
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
 :root,
-    :root.claro {
+    :root.escuro {
+        --backgroundTotal-color: hsl(222, 26%, 31%);
+        --fonteTotal-color: white;
         --botaoTroca-color: hsl(6, 63%, 50%);
         --hoverBotaoTroca-color: hsl(6, 69%, 65%);
         --bordaBackgroundBotaoTroca-color: hsl(224, 36%, 15%);
@@ -23,6 +18,7 @@ body {
         --fonteVisorCalculadora-color: white; 
         --backgroundTecladoCalculadora-color: hsl(223, 31%, 20%);
         --botaoNumerico-color: hsl(30, 25%, 89%);
+        --sombraBotaoNumerico-color:hsl(28, 16%, 65%);
         --fonteBotaoNumerico-color: hsl(221, 14%, 31%);
         --hoverBotaoNumerico-color: hsl(0, 0%, 100%);
         --botaoOperacaoAritmetica-color: hsl(30, 25%, 89%);
@@ -33,19 +29,84 @@ body {
         --sombraBotaoDEL-color: hsl(224, 28%, 35%);
         --fonteBotaoDEL-color: white;
         --hoverBotaoDEL-color: hsl(226, 15%, 65%);
-        --botaoReset-color:;
-        --sombraBotaoReset-color:;
-        --fonteBotaoReset-color:;
-        --hoverBotaoReset-color:;
+        --botaoReset-color: hsl(225, 21%, 49%);
+        --sombraBotaoReset-color: hsl(224, 28%, 35%);
+        --fonteBotaoReset-color: white;
+        --hoverBotaoReset-color: hsl(226, 15%, 65%);
+        --botaoResultado-color: hsl(6, 63%, 50%);
+        --sombraBotaoResultado-color: hsl(6, 70%, 34%);
+        --fonteBotaoResultado-color: white;
+        --hoverBotaoResultado-color: hsl(6, 69%, 65%);
     }
 
-    :root.escuro {
-
+    :root.claro {
+        --backgroundTotal-color: hsl(0, 0%, 90%);
+        --fonteTotal-color: hsl(60, 10%, 19%);
+        --botaoTroca-color: hsl(25, 98%, 40%);
+        --hoverBotaoTroca-color: hsl(25, 54%, 52%);
+        --bordaBackgroundBotaoTroca-color: hsl(0, 5%, 81%);
+        --backgroundVisorCalculadora-color: hsl(0, 0%, 93%);
+        --fonteVisorCalculadora-color: hsl(60, 10%, 19%); 
+        --backgroundTecladoCalculadora-color: hsl(0, 5%, 81%);
+        --botaoNumerico-color: hsl(45, 7%, 89%);
+        --sombraBotaoNumerico-color:hsl(35, 11%, 61%);
+        --fonteBotaoNumerico-color: hsl(60, 10%, 19%);
+        --hoverBotaoNumerico-color: hsl(0, 0%, 100%);
+        --botaoOperacaoAritmetica-color: hsl(45, 7%, 89%);
+        --sombraBotaoOperacaoAritmetica-color: hsl(35, 11%, 61%);
+        --fonteBotaoOperacaoAritmetica-color: hsl(60, 10%, 19%);
+        --hoverBotaoOperacaoAritmetica-color: hsl(0, 0%, 100%);
+        --botaoDEL-color: hsl(185, 42%, 37%);
+        --sombraBotaoDEL-color: hsl(185, 58%, 25%);
+        --fonteBotaoDEL-color: white;
+        --hoverBotaoDEL-color: hsl(185, 54%, 63%);
+        --botaoReset-color: hsl(185, 42%, 37%);
+        --sombraBotaoReset-color: hsl(185, 58%, 25%);
+        --fonteBotaoReset-color: white;
+        --hoverBotaoReset-color: hsl(185, 54%, 63%);
+        --botaoResultado-color: hsl(25, 98%, 40%);
+        --sombraBotaoResultado-color: hsl(25, 99%, 27%);
+        --fonteBotaoResultado-color: white;
+        --hoverBotaoResultado-color: hsl(25, 79%, 62%);
     }
 
     :root.roxo {
-        
+        --backgroundTotal-color: hsl(268, 75%, 9%);
+        --fonteTotal-color: hsl(52, 100%, 62%);
+        --botaoTroca-color: hsl(176, 100%, 44%);
+        --hoverBotaoTroca-color: rgb(205, 236, 234);
+        --bordaBackgroundBotaoTroca-color: hsl(268, 71%, 12%);
+        --backgroundVisorCalculadora-color: hsl(268, 71%, 12%);
+        --fonteVisorCalculadora-color: hsl(52, 100%, 62%); 
+        --backgroundTecladoCalculadora-color: hsl(268, 71%, 12%);
+        --botaoNumerico-color: hsl(268, 47%, 21%);
+        --sombraBotaoNumerico-color:hsl(290, 70%, 36%);
+        --fonteBotaoNumerico-color: hsl(52, 100%, 62%);
+        --hoverBotaoNumerico-color: hsl(269, 23%, 36%);
+        --botaoOperacaoAritmetica-color: hsl(268, 47%, 21%);
+        --sombraBotaoOperacaoAritmetica-color: hsl(290, 70%, 36%);
+        --fonteBotaoOperacaoAritmetica-color: hsl(52, 100%, 62%);
+        --hoverBotaoOperacaoAritmetica-color: hsl(269, 23%, 36%);
+        --botaoDEL-color: hsl(281, 89%, 26%);
+        --sombraBotaoDEL-color: hsl(285, 91%, 52%);
+        --fonteBotaoDEL-color: white;
+        --hoverBotaoDEL-color: hsl(281, 47%, 44%);
+        --botaoReset-color: hsl(281, 89%, 26%);
+        --sombraBotaoReset-color: hsl(285, 91%, 52%);
+        --fonteBotaoReset-color: white;
+        --hoverBotaoReset-color: hsl(281, 47%, 44%);
+        --botaoResultado-color: hsl(176, 100%, 44%);
+        --sombraBotaoResultado-color: hsl(177, 92%, 70%);
+        --fonteBotaoResultado-color: hsl(198, 20%, 13%);
+        --hoverBotaoResultado-color: hsl(176, 51%, 81%);
     }
+
+body {
+    background: var(--backgroundTotal-color);
+    color:var(--fonteTotal-color);
+    display: flex;
+    justify-content: center;
+}
 
 .calculadoraCompleta {
     display: flex;
@@ -92,7 +153,7 @@ body {
 }
 
 .button {
-    height: 0.8vw;
+    height: 0.7vw;
     width: 0.8vw;
     appearance: none;
     background-color: var(--botaoTroca-color);
@@ -132,6 +193,7 @@ body {
     text-align: right;
     align-items: center;
     border-radius: 10px;
+    border: none;
 }
 
 .tecladoDaCalculadora {
@@ -150,7 +212,7 @@ body {
     background-color: var(--botaoNumerico-color);
     border: 0;
     border-radius: 10px;
-    box-shadow: 0px 5px;
+    box-shadow: 0px 5px var(--sombraBotaoNumerico-color);
     color: var(--fonteBotaoNumerico-color);
     font-size: 32px;
 }
@@ -189,34 +251,34 @@ body {
 }
 
 .botaoReset {
-    background-color: hsl(225, 21%, 49%);
+    background-color: var(--botaoReset-color);
     border: 0;
     border-radius: 10px;
-    box-shadow: 0px 5px hsl(224, 28%, 35%);
-    color: white;
+    box-shadow: 0px 5px var(--sombraBotaoReset-color);
+    color: var(--fonteBotaoReset-color);
     grid-column-start: 1;
     grid-column-end: 3;
     font-size: 22px;
 }
 
 .botaoReset:hover {
-    background-color: hsl(226, 15%, 65%);
+    background-color: var(--hoverBotaoReset-color);
     cursor: pointer; 
 }
 
 .botaoDeResultado {
-    background-color: hsl(6, 63%, 50%);
+    background-color: var(--botaoResultado-color);
     border: 0;
     border-radius: 10px;
-    box-shadow: 0px 5px hsl(6, 70%, 34%);
-    color: white;
+    box-shadow: 0px 5px var(--sombraBotaoResultado-color);
+    color: var(--fonteBotaoResultado-color);
     grid-column-start: 3;
     grid-column-end: 5;
     font-size: 22px;
 }
 
 .botaoDeResultado:hover {
-    background-color: hsl(6, 69%, 65%);
+    background-color: var(--hoverBotaoResultado-color);
     cursor: pointer;
 }
 
