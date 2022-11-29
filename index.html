@@ -33,29 +33,29 @@
       
     </div>
 
-    <input type="text" class="visorDaCalculadora" id="visorDaCalculadora" value="0">
+    <p type="text" class="visorDaCalculadora" id="visorDaCalculadora" readonly></p>
       
     </form>
 
     <div class="tecladoDaCalculadora" id="tecladoDaCalculadora">
-      <button type="button" class="botaoNumerico" id="botaoNumerico">7</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">8</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">9</button>
-      <button type="button" class="botaoDEL" id="botaoDEL">DEL</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">4</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">5</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">6</button>
-      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">+</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">1</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">2</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">3</button>
-      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">-</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">.</button>
-      <button type="button" class="botaoNumerico" id="botaoNumerico">0</button>
-      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">/</button>
-      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica">x</button>
-      <button type="button" class="botaoReset" id="botaoReset">RESET</button>
-      <button type="button" class="botaoDeResultado" id="botaoDeResultado">=</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('7')">7</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('8')">8</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('9')">9</button>
+      <button type="button" class="botaoDEL" id="botaoDEL" onclick="deletar()">DEL</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('4')">4</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('5')">5</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('6')">6</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica" onclick="insert('+')">+</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('1')">1</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('2')">2</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('3')">3</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica" onclick="insert('-')">-</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('.')">.</button>
+      <button type="button" class="botaoNumerico" id="botaoNumerico" onclick="insert('0')">0</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica" onclick="insert('/')">/</button>
+      <button type="button" class="botaoOperacaoAritmetica" id="botaoOperacaoAritmetica" onclick="insert('*')">x</button>
+      <button type="button" class="botaoReset" id="botaoReset" onclick="limpar()">RESET</button>
+      <button type="button" class="botaoDeResultado" id="botaoDeResultado" onclick="calcularResultado()">=</button>
     </div>
   </div>
 

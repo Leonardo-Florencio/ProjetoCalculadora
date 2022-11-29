@@ -184,9 +184,12 @@ body {
   }
 
 .visorDaCalculadora {
+    display: flex;
+    justify-content: flex-end;
     background: var(--backgroundVisorCalculadora-color);
     color: var(--fonteVisorCalculadora-color);
     font-size: 3em;
+    height: 15%;
     max-width: 100%;
     margin-top: 5%;
     padding: .4em;
