@@ -188,7 +188,7 @@ body {
     justify-content: flex-end;
     background: var(--backgroundVisorCalculadora-color);
     color: var(--fonteVisorCalculadora-color);
-    font-size: 3em;
+    font-size: 2.5em;
     height: 15%;
     max-width: 100%;
     margin-top: 5%;
