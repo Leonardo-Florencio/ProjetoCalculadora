@@ -11,7 +11,7 @@
 <h2>Descrição:</h2>
 <p>Esse projeto de calculadora foi realizado como resposta para o desafio proposto pelo site Frontend Menthor (link: https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29).</p>
 <p>O desafio consiste de se criar uma calculadora que, além de funcionar normalmente através de seus botões, realizando as operações aritméticas e deletando ou resetando os números do visor, também deveria ter um "switch" que mudasse o visual da calculadora para 3 visuais sugeridos na documentação do desafio, sendo responsivo também para o mobile.</p>
-<p>Foram fornecidas apenas as cores e a fonte para a realização do desafio. Toda a contrução, posicionamento de elementos e scripts necessários foram realizados do zero.</p>
+<p>Foram fornecidas apenas as cores e a fonte para a realização do desafio. Toda a construção, posicionamento de elementos e scripts necessários foram realizados do zero.</p>
 
 <h2>Funcionalidades:</h2>
 <p>Essa calculadora funciona apenas pelos botões disponíveis na tela. Sendo assim, ao clicar neles, é possível relizar as operações aritméticas de soma, subtração, multiplicação e divisão.</p>
